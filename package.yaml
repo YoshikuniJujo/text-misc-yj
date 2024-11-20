@@ -1,5 +1,5 @@
 name:                text-misc-yj
-version:             0.1.0.1
+version:             0.1.0.2
 github:              "YoshikuniJujo/text-misc-yj"
 license:             BSD3
 author:              "Yoshikuni Jujo"
@@ -39,7 +39,7 @@ library:
   source-dirs: src
 
 tests:
-  try-text-misc-yj-test:
+  text-misc-yj-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -47,4 +47,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - try-text-misc-yj
+    - text-misc-yj
